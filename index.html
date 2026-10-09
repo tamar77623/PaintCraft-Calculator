@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>LoanFlex Calculator</title>
+</head>
+<body class="min-h-screen bg-gray-950 m-0 p-0 flex items-center justify-center">
+    <div class="container mx-auto my-10 bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl w-96 max-w-[90%] shadow-2xl shadow-indigo-950/40 border border-gray-700/60" id="contanier">
+        <input type="number" id="inp1" class="bg-gray-950/70 text-white font-semibold placeholder:font-normal placeholder:text-gray-400 block my-5 mx-auto p-3 rounded-xl border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 w-full box-border" placeholder="Room/wall length (in meters)">
+        <input type="number" id="inp2" class="bg-gray-950/70 text-white font-semibold placeholder:font-normal placeholder:text-gray-400 block my-5 mx-auto p-3 rounded-xl border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 w-full box-border" placeholder="Room/wall width (in meters)">
+        <input type="number" id="inp3" class="bg-gray-950/70 text-white font-semibold placeholder:font-normal placeholder:text-gray-400 block my-5 mx-auto p-3 rounded-xl border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 w-full box-border" placeholder="Wall height (in meters)">
+        <button id="btn" class="bg-indigo-600 hover:bg-indigo-500 active:scale-95 block mx-auto mt-7 text-white p-3 rounded-xl font-bold w-full shadow-lg shadow-indigo-950/40 transition-all duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 focus:ring-offset-gray-900">Quantity of paint required</button>
+        <h3 id="h3" class="text-indigo-300 font-bold text-center mt-6 mb-2 text-xl break-words"></h3>
+        <span id="span1" class="text-gray-200 font-medium text-center mt-3 mb-2 text-base block break-words"></span>
+        <button id="btn2" class="bg-indigo-600 hover:bg-indigo-500 active:scale-95 hidden mx-auto mt-7 text-white p-3 rounded-xl font-bold w-full shadow-lg shadow-indigo-950/40 transition-all duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 focus:ring-offset-gray-900">Clear Result</button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
